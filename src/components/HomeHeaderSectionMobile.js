@@ -68,7 +68,11 @@ const HomeHeaderSectionMobile = () => {
                 </div>
             </div>
         </div> 
+<<<<<<< HEAD
        <div class="modal fade" id="talktousmodal" tabindex="-1" aria-labelledby="talktousmodalLabel" aria-hidden="true">
+=======
+        {/* <div class="modal fade" id="talktousmodal" tabindex="-1" aria-labelledby="talktousmodalLabel" aria-hidden="true">
+>>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-body">
@@ -114,7 +118,11 @@ const HomeHeaderSectionMobile = () => {
                 open={open}
             >
                 <CircularProgress color="inherit" />
+<<<<<<< HEAD
             </Backdrop> 
+=======
+            </Backdrop> */}
+>>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
     </div>
     );
 };
