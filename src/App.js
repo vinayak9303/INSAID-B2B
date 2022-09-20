@@ -1,9 +1,5 @@
 import logo from './logo.svg';
-<<<<<<< HEAD
-
-=======
 import contactbackground from './images/contact-bg.png';
->>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
 
 import './App.css';
 import './navbar.scss';
@@ -12,11 +8,7 @@ import './../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useMediaQuery } from 'react-responsive';
 import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar1';
-<<<<<<< HEAD
-
-=======
 import ContactForm from './components/Contactform';
->>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
 
 import HomeHeaderSection from './components/HomeHeaderSection';
 import HomeHeaderSectionMobile from './components/HomeHeaderSectionMobile';
@@ -27,22 +19,11 @@ import HomeFifthSection from './components/HomeFifthSection';
 import HomeSixthSection from './components/HomeSixthSection';
 import HomeSeventhSection from './components/HomeSeventhSection';
 import HomeEightthSection from './components/HomeEightthSection';
-<<<<<<< HEAD
-import HomeEightthSectionMobile from './components/HomeEightthSectionMobile';
 import Footer from './components/Footer';
-import FooterMobile from './components/FooterMobile';
-=======
-import Footer from './components/Footer';
->>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
 import HomeSecondSectionMobile from './components/HomeSecondSectionMobile';
 import HomeThirdSectionMobile from './components/HomeThirdSectionMobile';
 import HomeFourthSectionMobile from './components/HomeFourthSectionMobile';
 import HomeFifthSectionMobile from './components/HomeFifthSectionMobile';
-<<<<<<< HEAD
-import HomeLastSection from './components/HomeLastSection';
-import HomeLastSectionMobile from './components/HomeLastSectionMobile';
-=======
->>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
 
 function App() {
   const caterbg = {
@@ -91,20 +72,6 @@ function App() {
         <HomeSeventhSection />
       </div>
       <div style={caterbg}>
-<<<<<<< HEAD
-      {isBigScreen &&  <HomeEightthSection />}
-      {isSmallScreen && <HomeEightthSectionMobile />}
-       
-      </div>
-      <div>
-      {isBigScreen &&  <HomeLastSection />}
-      {isSmallScreen && <HomeLastSectionMobile />}
-   
-      </div>
-      {isBigScreen &&  <Footer />}
-      {isSmallScreen && <FooterMobile />}
-  
-=======
         <HomeEightthSection />
       </div>
       <div className='row container-fluid mx-0 py-5' style={{backgroundImage: `url(${contactbackground})`}}>
@@ -117,7 +84,6 @@ function App() {
         <ContactForm />
       </div>
       <Footer />
->>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
     </div>
   );
 }

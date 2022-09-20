@@ -12,18 +12,11 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "boostrap": "^2.0.0",
-<<<<<<< HEAD
     "bootstrap": "^5.2.1",
     "jquery": "^3.6.0",
     "node-sass": "^7.0.1",
     "react": "^18.1.0",
     "react-bootstrap": "^2.5.0",
-=======
-    "bootstrap": "^5.0.1",
-    "jquery": "^3.6.0",
-    "node-sass": "^7.0.1",
-    "react": "^18.1.0",
->>>>>>> c5aa066e093143100d9ca5c552ede971b461980a
     "react-dom": "^18.1.0",
     "react-loader-spinner": "^5.2.1",
     "react-responsive": "^9.0.0-beta.10",
